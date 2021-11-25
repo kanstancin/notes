@@ -64,3 +64,10 @@ git branch -d br_name
 # conflicts, i.e same piece of code changed in both commits. 
 # In addition, it creates a new commit with two merged commits
 ```
+
+### add credentials
+```bash
+# after pushing or pulling for the first time, it will
+# ask for credentials and store it
+git config --global credential.helper store
+```
