@@ -22,5 +22,7 @@ ctrl+b "" # below
 
 ctrl+b arr_down/arr_left # switch to pane
 
+ctrl+b [ # scroll mode
+
 : kill-session # kills all windows
 ```
