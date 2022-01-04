@@ -63,6 +63,10 @@ git branch -d br_name
 # history lines, with one ancestor. This merges the code if there are no 
 # conflicts, i.e same piece of code changed in both commits. 
 # In addition, it creates a new commit with two merged commits
+
+# checkout remote branch
+git branch -a #list all branches
+git checkout -b new-branch origin/new-branch # this checkouts and pulls code
 ```
 
 ### add credentials
