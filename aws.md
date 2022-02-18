@@ -3,7 +3,7 @@
 
 1. set up Jupyter password
 2. set up ssl
-3. cd to project folder and run
+3. ssh to EC2 and ```cd``` to project folder and run
 ```bash
 jupyter notebook --certfile=~/ssl/mycert.pem --keyfile ~/ssl/mykey.key
 ```
