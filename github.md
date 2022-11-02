@@ -67,6 +67,11 @@ git branch -d br_name
 # checkout remote branch
 git branch -a #list all branches
 git checkout -b new-branch origin/new-branch # this checkouts and pulls code
+
+# commit afteer deleting files in a branch, they wont be deleted form other 
+# branches
+rm file.txt
+git commit -am "removed files"
 ```
 
 ### add credentials
