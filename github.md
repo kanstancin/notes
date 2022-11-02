@@ -72,6 +72,9 @@ git checkout -b new-branch origin/new-branch # this checkouts and pulls code
 # branches
 rm file.txt
 git commit -am "removed files"
+
+# after a branch was added
+git push --all -u
 ```
 
 ### add credentials
